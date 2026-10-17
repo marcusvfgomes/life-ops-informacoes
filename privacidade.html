@@ -10,6 +10,7 @@
 <h2>Processamento e compartilhamento</h2>
 <p>O conteúdo necessário a cada resposta é processado pela Anthropic, por meio do Claude Code na conta pessoal escolhida pelo titular, com treinamento geral de modelos desativado. As respostas são entregues pelo Telegram ao grupo privado autorizado.</p>
 <p>O sistema funciona em um servidor pessoal na DigitalOcean. O contexto fica em arquivos privados no servidor, com histórico de alterações. O repositório privado do GitHub recebe as cópias enviadas pelo operador. Os provedores processam os dados conforme suas próprias políticas e configurações de conta.</p>
+<p>O monitoramento de disponibilidade usa o Healthchecks, autorizado pelo titular. Esse serviço recebe sinais vazios de funcionamento, seus horários e o IP do servidor, além do e-mail de cadastro e do destino dos avisos no Telegram. Sua função é avisar sobre indisponibilidade; agenda, tarefas e contexto pessoal não são enviados a ele. Consulte a <a href="https://healthchecks.io/privacy/">política de privacidade do Healthchecks</a>.</p>
 <p>Os dados não são vendidos nem utilizados pelo Life Ops para publicidade, análise de crédito ou treinamento geral de modelos de inteligência artificial.</p>
 <h2>Armazenamento e proteção</h2>
 <p>Agenda e tarefas são consultadas sob demanda e usadas na memória da aplicação. Não são copiadas automaticamente para o contexto pessoal. As mensagens permanecem no Telegram conforme os controles desse serviço.</p>
